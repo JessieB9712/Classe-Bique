@@ -1,0 +1,32 @@
+:root {
+  --text: #6b6357;
+  --text-h: #2f2a25;
+  --bg: #faf7f2;
+
+  font: 16px/1.5 'Segoe UI', system-ui, Roboto, sans-serif;
+  color-scheme: light;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-h);
+}
+
+p {
+  margin: 0;
+}
